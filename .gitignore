@@ -1,0 +1,14 @@
+# Bot tokens - NEVER commit these
+.env
+*/.env
+
+# Runtime data the bots create on your PC
+*/data/
+*.log
+
+# Python
+__pycache__/
+.venv/
+
+# Packaged zip is distributed via GitHub Releases
+output/
